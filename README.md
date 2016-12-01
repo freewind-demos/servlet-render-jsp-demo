@@ -4,9 +4,9 @@ Servlet Rendering JSP Demo
 Render a jsp from a servlet.
 
 ```
-gradle jettyRun
+mvn jetty:run
 ```
 
 Then visit:
-- <http://localhost:8080/gradle-jetty-servlet-render-jsp-demo/>
-- <http://localhost:8080/gradle-jetty-servlet-render-jsp-demo/?name=World>
+- <http://localhost:8080/>
+- <http://localhost:8080/?name=World>
